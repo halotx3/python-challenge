@@ -13,7 +13,6 @@ with open(budgetCSV, newline="") as budgetFile:
     
     next(csvreader)
     # Getting all values needed from the row
-    print(csvreader)
 
     for row in csvreader:
         dateNum = dateNum + 1
